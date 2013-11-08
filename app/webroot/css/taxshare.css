@@ -1,0 +1,109 @@
+.wrapper{
+width: 1100px;
+height: 600px;
+text-align: center;
+margin: 50px;
+/*background-color: #E6ECEC;*/
+}
+
+.content-main{
+	margin-left:30px;
+}
+
+.title{
+	font-family: 'Eater', cursive;
+	font-size:80px;
+	margin:40px;
+}
+
+.input-form{
+	text-align: left;
+	margin-left: 100px;
+}
+/**detailアクション**/
+.detail-left{
+	padding-top:30px;
+	font-size: 20px;
+	width:380px;
+	height:350px;
+	float:left;
+	background-color: #F9FFEA;
+	vertical-align: text-top;
+}
+.detail-right{
+	margin-left:50px;
+	padding-top:30px;
+	font-size: 30px;
+	width:380px;
+	height:350px;
+	float: left;
+	background-color: rgba(7, 180, 235, 0.06);
+}
+.detail-bottom{
+	text-align:left;
+	width:800px;
+	/*height:200px;*/
+	margin-top:10px;
+	float: left;
+	background-color: orange;
+}
+/**myschedule**/
+.myschedule{
+	text-align: left;
+}
+
+/**mainアクションタイル表示**/
+div.Tile{
+	position: relative;
+    height: 180px;
+    width: 149px;
+    /*background-color: #86D511; カラー*/
+   	margin: 10px;
+    float: left;
+}
+           
+div.Tile:hover{
+   -webkit-transform: scale(1.1, 1.1);
+   /* IEの場合は -ms-transform: scale(1.1, 1.1); */
+   background-image: url("../img/taxshare/white_vpvot.png");
+   background-repeat: no-repeat;
+   background-position: right top;
+   opacity: 0.75;
+}
+
+span.TileTitle{
+	/*position: absolute;*/
+    /*padding: 10px;*/
+    /*top: 31%;*/
+    font-family: Meiryo UI;
+    font-size: 16pt;
+    color: White;
+}
+
+span.TilePlace{
+	font-size:6px;
+	color: black;
+}
+
+span.TileNote{
+	font-size:4px;
+}
+       
+span.TileFixeddate{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Meiryo UI;
+    font-size: 16pt;
+    color: White;
+}
+/**タイル表示**/
+	
+/**赤くするだけ**/
+span.red{
+	color:red;
+}
+/**青く**/
+span.blue{
+	color:blue;
+}
